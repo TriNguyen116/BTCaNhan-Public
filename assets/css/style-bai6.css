@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+/*import font*/
+@font-face{
+	src: url("../font-bai6/GreatVibes-Regular.ttf");
+	/* src: url("../font/GreatVibes-Regular.ttf"); */
+	font-family: GreatVibes;
+}
+h1{
+	color: #f58831;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: GreatVibes;
+}
+p {
+	text-align: justify;
+}
+#container {
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+}
+
+
+/*HEADER*/
+
+#header{
+	width: 100%;
+	height: auto;
+}
+#topmenu{
+	width: 100%;
+	height: 80px;
+	float: left;
+}
+#logo {
+	width: 200px;
+	float: left;
+}
+#menu{
+	width: 1000px;
+	float: right;
+	height: 40px;
+	margin: 20px 0px;
+}
+#menu ul {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+#menu ul li {
+	float: left;
+	margin: 0px 30px;
+	line-height: 40px;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: #1a8e4a;
+	font-weight: bold;
+	display: block;
+}
+#menu ul li a:hover {
+	color: #f58831;
+	border-top: #f58831 solid 2px;
+	
+}
+#banner {
+	width: 100%;
+	height: 400px;
+	background-image: url("../images/img-BT6/banner-1.jpg");
+	clear: both;
+	
+}
+/*CONTENT: ;*/
+#content1 {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 10px 0px;
+}
+#left-image {
+	width:500px;
+	float: left
+}
+#left-image img {
+	width: 500px;
+	height: 350px;
+	border-radius: 20px;
+}
+#right-content {
+	width: 680px;
+	float: right;
+	padding: 10px;
+	text-align: justify;
+	}
+.row {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.frame {
+	width: 256px;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+	border: #01833f dashed 2px;
+	border-radius: 15px;
+}
+
+.frame img {
+	width: 256px;
+	height: 260px;
+	border-radius: 15px;
+}
+
+.frame h3 {
+	color: #01833f;
+	text-align: center;
+}
+.frame:hover {
+	border: #f58831 dashed 2px;
+}
+hr{
+	border: #f58831 solid 2px;
+}
+/*FOOTE*/
+#footer{
+	width: 100%;
+	height: auto;
+	clear: both;	
+}
+.content-footer {
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+}
+.content-footer img{
+	width: 250px;
+}
+.content-footer ul {
+	list-style: none;
+}
+.content-footer ul li {
+	height: 30px;
+}
+.content-footer ul li a {
+	text-decoration: none;
+	color: #676d6b;
+}
+.content-footer ul li a:hover{
+	color: #01833f;
+	font-weight: bold;
+}
+.content-footer .icon{
+	width: 25px;
+	margin: 10px;
+}

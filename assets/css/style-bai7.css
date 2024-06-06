@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+mau cam: #ed7911
+mauvang: #e6c802
+mauxanhla: #73c029
+mauxnahduong:#264f9f
+*/
+h4, h2 {
+	color: #17202A ;
+}
+/*NAVBAR*/
+.navbar {
+	background-color: #FDFEFE ;
+}
+
+.navbar .nav-item .nav-link{
+	color: #17202A;
+	font-weight: bold
+}
+
+.navbar .nav-item .nav-link:hover{
+	color: #AEB6BF ;
+}
+
+.carousel h5{
+	font-size: 40px;
+}
+/*CARD*/
+.card {
+	border: #17202A  dashed 2px;
+	padding: 10px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;	
+}
+
+.card:hover {
+	background-color: #D5DBDB
+}
+
+.card .card-img-top {
+	border-radius: 15px;
+}
+
+.card .card-body .card-title {
+	color: #17202A;
+	font-weight: bold
+}
+
+.card .card-body .card-text {
+	text-align: justify
+}
+
+.btn-primary{
+	background-color: #FDFEFE;
+	border: 1px solid #17202A;
+	color: #17202A;
+}
+
+.btn-primary:hover{
+	background-color: #17202A;
+}
+
+
+.media {
+	
+}
+
+.meida img {
+	
+}
+
+.media .media-body{
+	text-align: justify
+}
+
+.media .media-body h5{
+	color: #17202A;
+}
+
+.mr-3{
+	width: 100px;
+	height: 120px;
+}
+/*FOOTER*/
+.footer {
+	background-color: #17202A;
+}
+
+.footer a {
+	color: #fff;
+}
